@@ -34,7 +34,7 @@ The application downloads an image from an **Amazon S3 bucket**, sends it to **A
 ## 📂 Project Structure
 
 ```text
-Image-Labels-Generator/
+aws-image-labels-generator/
 │
 ├── app.py                  # Main Python application
 ├── requirements.txt         # Project dependencies
@@ -53,7 +53,7 @@ Image-Labels-Generator/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/aws-image-labels-generator.git
+git clone https://github.com/sahilp16092004-rgb/aws-image-labels-generator.git
 ```
 
 ### 2. Move into the project folder
