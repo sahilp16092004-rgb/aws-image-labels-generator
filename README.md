@@ -8,6 +8,9 @@ The application downloads an image from an **Amazon S3 bucket**, sends it to **A
 
 ---
 
+## 🏛️ Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/201389b2-f633-464c-8b84-1aceb3ddcd2e" />
+
 ## 🚀 Features
 
 - Download image from Amazon S3
@@ -99,9 +102,6 @@ python app.py
 7. The processed image is saved in the `output` folder and displayed.
 
 ---
-
-## 🏛️ Architecture
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/201389b2-f633-464c-8b84-1aceb3ddcd2e" />
 
 ## 📸 Screenshots
 
