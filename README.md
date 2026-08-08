@@ -101,40 +101,7 @@ python app.py
 ---
 
 ## 🏛️ Architecture
-
-```text
-              +--------------------+
-              |   Amazon S3 Bucket |
-              +---------+----------+
-                        |
-                        | Download Image
-                        |
-                        v
-              +--------------------+
-              |  Python (boto3)    |
-              +---------+----------+
-                        |
-                        | detect_labels()
-                        |
-                        v
-           +---------------------------+
-           | Amazon Rekognition (AI)   |
-           +------------+--------------+
-                        |
-             Labels + Bounding Boxes
-                        |
-                        v
-              +--------------------+
-              |   Python Pillow    |
-              +---------+----------+
-                        |
-                        |
-                        v
-          +---------------------------+
-          | output/dog_detected.jpg   |
-          +---------------------------+
-```
----
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/201389b2-f633-464c-8b84-1aceb3ddcd2e" />
 
 ## 📸 Screenshots
 
